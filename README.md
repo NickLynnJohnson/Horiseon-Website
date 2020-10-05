@@ -1,2 +1,2 @@
 # 01-HTML-Git-CSS-HW
-This is an example of introductory HTML, Git, CSS usage.
+This webpage was updated to include semantic elements for better accessibility.
