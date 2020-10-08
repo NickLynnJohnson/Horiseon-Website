@@ -70,9 +70,9 @@ main {
 }
 
 /* Moved up to here from search-engine-optimization to social-media-marketing from down below to make it make sequential sense*/
-/* Combined three divs that were the same into just one div. And then I changed that div to a section. */
+/* Combined three divs that were the same into just one div. And then I changed that div to an article. */
  
-section {
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -80,8 +80,8 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* There used to be three classes that were named differently but had the same height. I combined all three into one. And then I added the height requirement to this section below because it related to the section. I also ensured to make it go "section img" so the requirement applied to img.*/
-section img {
+/* There used to be three classes that were named differently but had the same height. I combined all three into one. And then I added the height requirement to this article below because it related to the article. I also ensured to make it go "article img" so the requirement applied to img.*/
+article img {
     max-height: 200px;
 }
 
@@ -96,8 +96,8 @@ section img {
     margin-left: 25px;
 }
 
-/* Combined three h2 requirements into one because they were all the same. Added section before h2.*/
-section h2 {
+/* Combined three h2 requirements into one because they were all the same. Added article before h2.*/
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -133,7 +133,7 @@ section img {
     max-width: 150px;
 }
 
-/* Changed to just footer.*/
+/* Changed to just footer instead of "." footer.*/
 footer {
     padding: 30px;
     clear: both;
@@ -141,7 +141,7 @@ footer {
     text-align: center;
 }
 
-/* Changed to just footer.*/
-footer h2 {
+/* Changed to just footer instead of "." footer.*/
+footer h4 {
     font-size: 20px;
 }
